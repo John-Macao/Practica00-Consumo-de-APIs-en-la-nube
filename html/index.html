@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <script rel="text/javascript" src="../js/data_API.js"></script>
+
+
+
+
+  </head>
+
+  <body>
+    <header>
+
+      <nav>
+        <h1 >
+          Busqueda de comida 
+        </h1>
+      </nav>
+        <form class="caja">
+            <input class="ingreso" type="text" placeholder="Search" id="search" aria-label="Search">
+            <button class="busqueda" type="submit" onclick="busquedaAPI(); return false">Buscar</button>
+            <input type="button" value="Actualizar" onclick="location.reload()"/>
+        </form>
+
+    </header>
+
+      <div class="container ">
+       
+      </div>
+    
+      <div class="container">
+        <table id = "dataTable" class="tb">
+          <thead>
+            <tr>
+              <th class="uno">Identificación</th>
+              <th class="dos">Nombre</th>
+              <th class="tres">Calorias</th>
+              <th class="cuatro">Proteinas</th>
+              <th class="cinco">Carbohidratos</th>
+              <th class="seis">Presentacion</th> 
+            </tr>
+          </thead>
+          <tbody id = "detailsTable">
+          </tbody>
+        </table>
+        <span id = "response"></span>
+     </div>
+    
+     <div class="container ">
+        <div id="pagination-wrapper"></div>
+     </div>
+
+  </body>
+
+<footer class="footer00">
+  <div class="pie_pag">
+    <span class="pie_pag01"> probando cambios</span>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+</html>
