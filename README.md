@@ -1,7 +1,7 @@
 # Practica00-Consumo-de-APIs-en-la-nube
 
 ## 1.   Identificar gráficamente la arquitectura y el patrón de diseño de la aplicación a desarrollar.”
-![1](/recursos/0.jpg?raw=true "Title")
+![1](/recursos/0.png?raw=true "Title")
 
 ## 2.   Generar una llave para consumir los servicios web de la API (opcional, depende de la API seleccionada).”
 ## 3.	Crear un repositorio en GitHub con el nombre “Practica00 – Consumo de APIs en la nube”
