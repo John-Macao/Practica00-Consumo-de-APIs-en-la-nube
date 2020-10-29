@@ -1,0 +1,44 @@
+body {
+    background-image: url(../imgAPI/green_color.jpg);
+    background-size: cover;
+}
+
+.caja{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.tb {
+    border: black 1px double;
+    background-color: chocolate;
+    margin-left: 20%;
+    margin-top: 20px;
+    
+}
+
+.uno{
+    border-right: black 1px solid;
+}
+
+.dos {
+    border-right: black 1px solid;
+}
+
+.tres {
+    border-right: black 1px solid;
+}
+
+.cuatro {
+    border-right: black 1px solid;
+}
+
+.cinco {
+    border-right: black 1px solid;
+}
+
+
+
+#detailsTable {
+    background-color: powderblue;
+}
+
