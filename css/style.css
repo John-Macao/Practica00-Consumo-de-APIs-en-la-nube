@@ -1,22 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
-    background-image: url(../imgAPI/green_color.jpg);
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 4px;
+    background-image: url(../imgAPI/fondo.png);
+    image-rendering: unset;
     background-size: cover;
+    background-repeat: repeat;
+    padding-left: 1px;
+    padding-right: 1px;
+    font: italic 18px "Arial Black", Gadget, sans-serif;
 }
 
-.caja{
+#cabecera {
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(253, 235, 208, 0.6);
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#search {
+    width: 50%;
+    height: 20%;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: "Mystery Quest", cursive;
+    font-size: x-large;
+    border-radius: 3px;
+}
+
+button {
+    font-family: "Mystery Quest", cursive;
+    border-radius: 3px;
+    position: relative;
+    width: 10%;
+    height: 20%;
+    background-color: wheat;
+    font-size: large;
+    color: tomato;
+}
+
+#Actualizar {
+    font-family: "Mystery Quest", cursive;
+    border-radius: 3px;
+    position: relative;
+    width: 10%;
+    height: 20%;
+    background-color: wheat;
+    font-size: large;
+    color: tomato;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+#paginacion {
+    margin-left: 15%;
+}
+
+#pagination-wrapper {
+    text-align: center;
+}
+
+.caja {
     margin-left: 20%;
     margin-top: 20px;
 }
 
-.tb {
-    border: black 1px double;
-    background-color: chocolate;
+#dataTable {
+    border: black 3px double;
+    width: auto;
+    height: auto;
+    background-color: rgb(231, 76, 60, 0.6);
     margin-left: 20%;
     margin-top: 20px;
-    
+    margin-right: 10px;
+    text-align: center;
 }
 
-.uno{
+.uno {
     border-right: black 1px solid;
 }
 
@@ -36,9 +112,11 @@ body {
     border-right: black 1px solid;
 }
 
-
-
 #detailsTable {
-    background-color: powderblue;
+    background: -moz-linear-gradient(-45deg, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(240, 183, 161, 1)), color-stop(50%, rgba(140, 51, 16, 1)), color-stop(51%, rgba(117, 34, 1, 1)), color-stop(100%, rgba(191, 110, 78, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+    background: linear-gradient(135deg, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
 }
-

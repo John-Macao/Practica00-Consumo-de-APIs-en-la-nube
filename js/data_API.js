@@ -7,7 +7,7 @@ var minCarbs="10";
 var maxCarbs="100";    
 var minProtein="10";
 var maxProtein="100";
-var pass = "&apiKey=f0cd481d28f74b12897d71febea13b66";
+var pass = "&apiKey=f0980158d8a14db6bc9522018bdc42ae";
 var url = "https://api.spoonacular.com/recipes/complexSearch?query="; 
 
 
